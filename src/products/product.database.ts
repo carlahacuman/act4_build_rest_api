@@ -2,7 +2,7 @@ import { Product, Products, UnitProduct } from "./product.interface";
 import {v4 as random} from "uuid"
 import fs from "fs"
 
-let users: Products = loadProducts()
+let products: Products = loadProducts()
 
 function loadProducts() : Products {
     try {
